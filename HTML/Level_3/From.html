@@ -1,22 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form in HTML</title>
 </head>
+
 <body>
     <!-- Action Attribute: jab hum form submit krte hai to o kisse address pe jake store hoga -->
     <form action="/action">
-        <label for="username">UserName: </label>
-        <input type="text" id="username" placeholder="Enter UserName"/>
-    
-        <br>
-        <label for="pass">PassWord:  </label>
-        <input type="password" id="pass" placeholder="Enter PassWord"/>
-       
+        <div>
+            <label for="username">UserName: </label>
+            <input type="text" id="username" placeholder="Enter UserName" />
+        </div>
 
+        <div>
+            <label for="pass">PassWord: </label>
+            <input type="password" id="pass" placeholder="Enter PassWord" />
+        </div>
+
+         <div>
+            <label for="age">Your Age: </label>
+            <input type="number" id="age" placeholder="Enter Age">
+         </div>
+
+         <button type="submit">Submit Data</button>
+         <button type="reset">Reset Form</button>
+         <button type="button">Do Something</button>
     </form>
-    
+
 </body>
+
 </html>
