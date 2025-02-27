@@ -7,7 +7,7 @@
 </head>
 <body>
     <!-- Q1)Re-create the following table using HTML tags -->
-     <table border="black">
+     <!-- <table border="black">
         <caption>A test table with merged cells</caption>
         <tbody>
             <tr>
@@ -33,11 +33,37 @@
             </tr>
         </tbody>
      </table>
-     <hr>
+     <hr> -->
      <!-- Q2) Create a serach option that redirects its search request to websits -->
-     <form action="https://music.youtube.com/search">
+     <!-- <form action="https://music.youtube.com/search">
         <input type="text" name="q" placeholder="search the song">
         <button type="submit">Search</button>
-    </form>
+    </form> -->
+
+    <!-- Q3) Recreate the following form with suitable elements & input types -->
+     <h1>Registration Form</h1>
+     <form action="/action.">
+        <div>
+
+            <input type="text" name="fname" id="first_name" placeholder="First Name">
+            <input type="text" name="lname" id="last_name" placeholder="Last Name">
+        </div>
+        <div>
+            <label for="gender">Please Select Your Gender: </label>
+            <select name="gen" id="gender">
+                <option value="">---Please Select Your Gender---</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="trans">Transgender</option>
+            </select>
+        </div>
+        <div>
+            Do you agree to all terms of service?
+            <input type="checkbox" name="agree" id="contidion" value="Yes, I agree">
+            <label for="contidion">Yes,I agree.</label>
+        </div>
+        <button type="submit">Register</button>
+     </form>
+     
 </body>
 </html>
