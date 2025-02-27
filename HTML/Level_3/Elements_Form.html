@@ -53,7 +53,19 @@
           </div>
 
           <!-- Range Element -->
-           
+           <div>
+               <label for="call_vol">Call Volume</label>
+               <input type="range" name="call_vol" id="call_vol" min="0" max="50" step="10"/>
+                <br>
+               <label for="music_val">Music Volume</label>
+               <input type="range" name="music_val" id="music_val" min="0" max="50" step="5"/>
+           </div>
+
+           <!-- TextArea -->
+            <div>
+                <label for="feedback">Give your valuable FeedBack: </label>
+                <textarea name="feedback" id="feedback" placeholder="Write your feedback here!" rows="5" cols="10"></textarea>
+            </div>
           <button type="submit">Submit</button>
     </form>
 </body>
