@@ -1,9 +1,13 @@
 h1{
     color: aqua;
+    background-color: green;
 }
 p{
-    color: aquamarine;
+    font: bold;
+    color: rgb(128, 0, 79);
+    background-color: seashell;
 }
 button{
     color: blue;
+    background-color: darkgoldenrod;
 }
