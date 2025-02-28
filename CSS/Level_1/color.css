@@ -1,5 +1,6 @@
 h1{
-    color: aqua;
+    /* color: aqua; */
+    color: rgb(128, 0, 79);
     background-color: green;
 }
 p{
