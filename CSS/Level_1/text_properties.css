@@ -5,10 +5,12 @@ h1{
     font-weight: 700;  /*Range (100-900), normal=400,bold =700*/
     text-decoration: wavy red underline;
     letter-spacing: 2px;
+    font-family:'Times New Roman', Times, serif;
 }
 p{
     text-align: justify;
     line-height: 2.0;
+    font-size: 10px;
 }
 h2{
     
