@@ -1,12 +1,17 @@
 h1{
     text-align: center;
-    border: solid;
-    width: 50%;
-    font-weight: 400;  /*Range (100-900), normal=400,bold =700*/
+    /* border: solid; */
+    /* width: 50%; */
+    font-weight: 700;  /*Range (100-900), normal=400,bold =700*/
+    text-decoration: underline;
 }
 p{
     text-align: justify;
 }
 h2{
-    text-align: inherit;
+    
+    text-decoration: overline;
+}
+h3{
+    text-decoration: line-through;
 }
