@@ -1,0 +1,12 @@
+h1{
+    text-align: center;
+    border: solid;
+    width: 50%;
+    font-weight: 400;  /*Range (100-900), normal=400,bold =700*/
+}
+p{
+    text-align: justify;
+}
+h2{
+    text-align: inherit;
+}
