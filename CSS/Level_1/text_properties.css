@@ -3,7 +3,7 @@ h1{
     /* border: solid; */
     /* width: 50%; */
     font-weight: 700;  /*Range (100-900), normal=400,bold =700*/
-    text-decoration: underline;
+    text-decoration: wavy red underline;
 }
 p{
     text-align: justify;
@@ -14,4 +14,7 @@ h2{
 }
 h3{
     text-decoration: line-through;
+}
+a{
+    text-decoration: none;/*iska use hum karte hai jab pahle se koi word underline ho aur usee hume remove karna ho*/
 }
