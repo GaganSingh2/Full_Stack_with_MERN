@@ -5,7 +5,7 @@ h1{
     font-weight: 700;  /*Range (100-900), normal=400,bold =700*/
     text-decoration: wavy red underline;
     letter-spacing: 2px;
-    font-family:'Times New Roman', Times, serif;
+    font-family:'Times New Roman', Times, serif; /*cssfontstack.com*/
 }
 p{
     text-align: justify;
