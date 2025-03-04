@@ -1,0 +1,29 @@
+/* Universal Selector */
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Element Slector */
+h3{
+    color: aqua;
+}
+h1,h3{      
+    color: purple;   /*agr hume same property ko do tag pe lagana ho to aise laga skt hai*/
+}
+
+
+/* Id Selector */
+#login{
+    background-color: wheat;
+    color: purple;
+}
+#signup{
+    background-color: white;
+    color: brown;
+}
+
+/* Class Selector */
+.upvote{
+    color: blue;
+    background-color: azure;
+}
