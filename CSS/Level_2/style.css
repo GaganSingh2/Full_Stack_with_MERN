@@ -27,3 +27,12 @@ h1,h3{
     color: blue;
     background-color: azure;
 }
+
+/* Descendent Selector */
+.post a{
+    color: aquamarine;
+    background-color: yellow;
+}
+nav ul li a{
+    color: hotpink;
+}
