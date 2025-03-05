@@ -46,3 +46,19 @@ p + h3{
     background-color: slateblue;
     color:darkgreen;
 }
+
+/* Child Combinator */
+div > input{
+    background-color: aqua;
+}
+
+/* Attribute Selector */
+input[type="text"]{
+    color: blue;
+}
+input[type="password"]{
+    color: red;
+}
+input[type="text"]{
+    text-decoration: underline;
+}
