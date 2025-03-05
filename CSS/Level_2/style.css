@@ -18,7 +18,7 @@ h1,h3{
     color: purple;
 }
 #signup{
-    background-color: white;
+    background-color: wheat;
     color: brown;
 }
 
@@ -61,4 +61,29 @@ input[type="password"]{
 }
 input[type="text"]{
     text-decoration: underline;
+}
+
+/* Hover class */
+button:hover{
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+/* Active class */
+button:active{
+    background-color: hotpink;
+    color: black;
+}
+
+/* CHecked class */
+input[type="radio"]:checked + label{
+    color: hotpink;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* :nth-of-type() */
+div:nth-of-type(2n){
+    background-color: violet;
 }
