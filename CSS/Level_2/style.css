@@ -103,3 +103,11 @@ p::selection{
     background-color: chartreuse;
     color: darkmagenta;
 }
+
+/* Cascade Algo(Overwrite the property) */
+h3{
+    background-color: aqua;
+}
+h3{
+    background-color: blueviolet;
+}
