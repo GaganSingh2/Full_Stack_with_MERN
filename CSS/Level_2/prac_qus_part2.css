@@ -1,0 +1,49 @@
+/* Part A(Selector) */
+/* Q1) */
+#mainTopic{
+    color: blue;
+}
+
+/* Q2) */
+*{
+    text-align: center;
+}
+
+/* Q3) */
+h1,h3,h5{
+    font-style: Georgia;
+}
+
+/* Q4) */
+p{
+    background-color: rgb(11, 66, 167);
+    color: white;
+}
+
+/* Q5) */
+div button{
+    background-color: purple;
+    color: azure;
+}
+
+/* Part B(Pseduo class and elemets */
+/* Q6) */
+div button:hover{
+    background-color: yellow;
+    color: blue;
+}
+
+/* Q7) */
+p:nth-of-type(2n+1){
+    color: yellow;
+}
+
+/* Q8) */
+#mainTopic::first-letter{
+    color: red;
+}
+
+/* Q9) */
+#yes:checked + label{
+    color: darkgreen;
+}
