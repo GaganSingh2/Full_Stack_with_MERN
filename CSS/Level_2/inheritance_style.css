@@ -1,0 +1,12 @@
+div{
+    background-color: aqua;
+}
+
+/* Inherit Properties */
+input{
+    background-color: inherit;
+}
+
+button{
+    background-color: inherit;
+}
