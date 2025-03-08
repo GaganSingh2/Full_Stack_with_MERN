@@ -10,3 +10,7 @@ input{
 button{
     background-color: inherit;
 }
+
+button::first-letter{
+    color: blue;
+}
