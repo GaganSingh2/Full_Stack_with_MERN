@@ -1,0 +1,33 @@
+div{
+    height: 200px;
+    width: 500px;
+    /* Border Sytle */
+    /* border-width: 5px;
+    border-style: solid;
+    border-color: aqua; */
+    border: 5px solid aqua; /*Shorthand property*/
+    /* Border Radius(We gave the curve shape to the border) */
+    border-radius: 15px;
+    /* Padding (distance between contenet to border */
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+h1{
+    border-width: 5px;
+    border-style: dashed;
+    border-color: hotpink;
+    border-left-color: blue;
+    border-top-color: yellow;
+    border-top-style: solid;
+}
+
+button{
+    border: 2px solid black;
+    border-radius: 11px;
+    background-color: yellow;
+
+}
