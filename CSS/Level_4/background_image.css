@@ -1,0 +1,8 @@
+div{
+    width: 600px;
+    height: 400px;
+    background-color: aquamarine;
+    margin: 10px auto;
+    background-image: url("mypic.jpg");
+    background-size: cover; /*yaha contain aur auto v use kr skte hai*/
+}
