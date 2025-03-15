@@ -14,7 +14,7 @@
     box-shadow: 5px 4px 18px black;
 }
 img{
-    width: 100%;
+    width: 100%;  /*iska matlb ye hua ki jo v humne width img ke parent ko set kiya hai o utna width hi img ko v mill jayega*/
     border-radius: 5px 5px 0 0;
 }
 .anu{

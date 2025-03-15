@@ -8,7 +8,7 @@ div{
     transition-duration: 1s;
     transition-timing-function: ease;
     transition-delay: 0.2s; */
-    /* Short-Hand property */
+    /* Short-Hand property------ */
     transition: margin-top 1s ease 0.2s;
     text-align: center;
 }
