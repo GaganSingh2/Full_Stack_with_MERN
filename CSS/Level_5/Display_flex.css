@@ -1,0 +1,20 @@
+#container{
+    width: 80%;
+    height: 300px;
+    border: 2px solid black;
+    background-color: antiquewhite;
+    margin: 10px auto;
+    display: flex;  /*ye by default row direction me flex hota hai*/
+    flex-direction: row-reverse;
+}
+h1{
+    text-align: center;
+}
+
+#container div{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 1.5em;
+    color: white;
+}
