@@ -29,3 +29,17 @@ div{
     top: 100px;
     left: 100px;
 }
+
+#fixed{
+    background-color: rgb(151, 28, 69);
+    position: fixed;
+    top: 100px;
+    left: 100px;
+}
+
+#sticky{
+    background-color: chartreuse;
+    position: sticky;
+    top: 50px;
+    left: 50px;
+}

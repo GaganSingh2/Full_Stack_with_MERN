@@ -1,0 +1,36 @@
+
+#face{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 11);
+}
+
+.lefteye, .righteye{
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+    top: 50px;
+    left: 45px;
+}
+.righteye{
+    /* width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 120px;
+    position: relative; */
+    top: 29px;
+    left: 125px;
+}
+
+#lip{
+    width: 100px;
+    height: 30px;
+    background-color: brown;
+    position: relative;
+    top: 78px;
+    left: 46px;
+    border-radius: 0 0 25px 25px;
+}
