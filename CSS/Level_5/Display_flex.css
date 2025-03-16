@@ -5,7 +5,9 @@
     background-color: antiquewhite;
     margin: 10px auto;
     display: flex;  /*ye by default row direction me flex hota hai*/
-    flex-direction: row-reverse;
+    flex-direction: row;
+    /* justify-content: space-evenly; */
+    flex-wrap: wrap-reverse;
 }
 h1{
     text-align: center;
