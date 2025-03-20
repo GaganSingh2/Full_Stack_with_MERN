@@ -7,14 +7,15 @@
     display: flex;  /*ye by default row direction me flex hota hai*/
     flex-direction: row;
     /* justify-content: space-evenly; */
-    flex-wrap: wrap-reverse;
+    /* flex-wrap: wrap; */
+    align-items: baseline;
 }
 h1{
     text-align: center;
 }
 
 #container div{
-    width: 100px;
+    width: 300px;
     height: 100px;
     text-align: center;
     font-size: 1.5em;
