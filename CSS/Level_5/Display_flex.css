@@ -5,17 +5,18 @@
     background-color: antiquewhite;
     margin: 10px auto;
     display: flex;  /*ye by default row direction me flex hota hai*/
-    flex-direction: row;
+    flex-direction: column;
     /* justify-content: space-evenly; */
-    /* flex-wrap: wrap; */
-    align-items: baseline;
+    flex-wrap: wrap;
+    /* align-items: baseline; */
+    align-content: space-evenly;
 }
 h1{
     text-align: center;
 }
 
 #container div{
-    width: 300px;
+    width: 100px;
     height: 100px;
     text-align: center;
     font-size: 1.5em;
