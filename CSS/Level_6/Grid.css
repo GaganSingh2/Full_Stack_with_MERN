@@ -18,8 +18,8 @@
 }
 
 .item{
-    width: 200px;
-    height: 60px;
+    /* width: 200px;
+    height: 60px; */
     background-color: cyan;
     border: 2px solid black;
     text-align: center;
@@ -28,4 +28,13 @@
 }
 h1{
     text-align: center;
+}
+
+#one{
+    /* Grid column  */
+    /* grid-column-start: 1;
+    grid-column-end: 4; */
+    /* Short-hand */
+    /* grid-column: 1/4; */
+    grid-column: 1/ span 3;
 }
