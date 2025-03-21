@@ -1,5 +1,5 @@
 #container{
-    width: 60%;
+    width: 80%;
     height: 300px;
     border: 2px solid black;
     background-color: antiquewhite;
@@ -16,14 +16,17 @@
     align-self: flex-start;
    /* flex-basis: 400px; */
     /* flex-grow: 1; */
-    flex-shrink: 2;
+    flex-shrink: 1;
 }
 
 #yellow{
     /* flex-grow: 1;  */
     /* max-width: 300px;*/ /*ye max width set kr dega ke isse jada nhi ja skta hai width chahe hum kitna v kyu na badha le */
     /* min-width: 100px; */
-    flex-shrink: 5;
+    /* flex-shrink: 5; */
+
+    /* Short-Hand Property of Flex (flex: grow,shrink,basis)*/
+    flex: 2 2 100px;
 }
 h1{
     text-align: center;
