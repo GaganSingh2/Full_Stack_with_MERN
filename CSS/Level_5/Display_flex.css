@@ -13,7 +13,14 @@
 }
 
 #blu{
-    align-self: flex-end;
+    /* align-self: flex-end;
+    flex-basis: 400px; */
+    flex-grow: 1;
+}
+
+#yellow{
+    flex-grow: 1; 
+    max-width: 300px;/*ye max width set kr dega ke isse jada nhi ja skta hai width chahe hum kitna v kyu na badha le*/
 }
 h1{
     text-align: center;
