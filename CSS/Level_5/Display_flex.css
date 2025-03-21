@@ -1,5 +1,5 @@
 #container{
-    width: 80%;
+    width: 60%;
     height: 300px;
     border: 2px solid black;
     background-color: antiquewhite;
@@ -13,14 +13,17 @@
 }
 
 #blu{
-    /* align-self: flex-end;
-    flex-basis: 400px; */
-    flex-grow: 1;
+    align-self: flex-start;
+   /* flex-basis: 400px; */
+    /* flex-grow: 1; */
+    flex-shrink: 2;
 }
 
 #yellow{
-    flex-grow: 1; 
-    max-width: 300px;/*ye max width set kr dega ke isse jada nhi ja skta hai width chahe hum kitna v kyu na badha le*/
+    /* flex-grow: 1;  */
+    /* max-width: 300px;*/ /*ye max width set kr dega ke isse jada nhi ja skta hai width chahe hum kitna v kyu na badha le */
+    /* min-width: 100px; */
+    flex-shrink: 5;
 }
 h1{
     text-align: center;
@@ -30,6 +33,6 @@ h1{
     width: 100px;
     height: 100px;
     text-align: center;
-    font-size: 1.5em;
+    /* font-size: 1.5em; */
     color: white;
 }
