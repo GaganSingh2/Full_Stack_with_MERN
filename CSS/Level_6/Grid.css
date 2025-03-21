@@ -34,7 +34,18 @@ h1{
     /* Grid column  */
     /* grid-column-start: 1;
     grid-column-end: 4; */
-    /* Short-hand */
+    
+    /* Short-hand Property*/
     /* grid-column: 1/4; */
     grid-column: 1/ span 3;
+}
+
+#two{
+    /* Grid Row */
+    /* grid-row-start: 1;
+    grid-row-end: 4; */
+
+    /* Short-Hand Property */
+    /* grid-row: 1/4; */
+    grid-row: 1/ span 3;
 }
