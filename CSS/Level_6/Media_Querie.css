@@ -1,0 +1,19 @@
+div{
+    width: 500px;
+    height: 50px;
+    background-color: aqua;
+    color: azure;
+    font-size: 30px;
+    margin: 10px auto;
+}
+h1{
+    text-align: center;
+}
+
+@media (max-width: 400px) {
+    div{
+        background-color: blueviolet;
+        color: chartreuse;
+        height: 70px;
+    }
+}
