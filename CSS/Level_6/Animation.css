@@ -28,11 +28,25 @@ div{
         font-size: 40px;
         background-color: hotpink;
         color: red;
-        border-radius: 7px;
+        border-radius: 7px ;
     }
 }
 
 h1{
     color: violet;
     text-align: center;
+}
+h2{
+    text-align: center;
+    animation: headMove 2s ease-in 0s 6 alternate;
+}
+
+@keyframes headMove {
+    from{
+        transform: translateY(0);
+    }
+    to{
+        transform: translateY(25px);
+        
+    }
 }
