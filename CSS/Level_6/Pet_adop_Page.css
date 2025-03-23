@@ -1,0 +1,42 @@
+h2{
+    color: chocolate;
+}
+h1 span{
+    color:peru;
+}
+
+.card{
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 15px;
+    padding: 5px;
+    box-shadow: 2px 2px 5px grey;
+}
+.card:hover{
+    box-shadow: 8px 8px 20px gray;
+}
+img{
+    width: 100%;
+    border-radius: 20px;
+}
+h4{
+    text-align: right;
+    color: darkgreen;
+}
+
+#pets{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media (max-width: 500px){
+    #pets{
+        flex-wrap: wrap;
+    }
+}
+.card p span{
+    color: chocolate;
+    font-weight: bold;
+    font-size: 20pxpx;
+}
