@@ -1,0 +1,38 @@
+div{
+    width: 80px;
+    height: 60px;
+    background-color: aqua;
+    color: blueviolet;
+    margin: 10px auto;
+    /* Animation Properties */
+    /* animation-name: fontAnim;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: 4;
+    animation-direction: alternate-reverse; */
+    /* Short-Hand Properties */
+    animation: fontAnim 2s ease-in 0s 4 alternate;
+}
+
+@keyframes fontAnim {
+    from{
+        width: 80px;
+        font-size: 20px;
+        background-color: chartreuse;
+        color:blue;
+        border-radius: 0;
+    }
+    to{
+        width: 300px;
+        font-size: 40px;
+        background-color: hotpink;
+        color: red;
+        border-radius: 7px;
+    }
+}
+
+h1{
+    color: violet;
+    text-align: center;
+}
