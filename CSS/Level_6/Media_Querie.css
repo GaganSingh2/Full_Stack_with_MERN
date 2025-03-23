@@ -17,3 +17,14 @@ h1{
         height: 70px;
     }
 }
+
+@media (orientation: landscape){
+    div{
+        background-color: tomato;
+    }
+}
+@media (orientation: portrait){
+    div{
+        background-color: yellow;
+    }
+}
