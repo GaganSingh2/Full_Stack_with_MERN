@@ -70,3 +70,30 @@
         grid-row: 12;
     }
 }
+
+/* Q3)---- */
+.loader{
+    border: 16px solid #f3f3f3;
+    border-top: 16px solid goldenrod;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0%{
+        /* border-top: 16px solid goldenrod; */
+        transform: rotate(0deg);
+    }
+    /* 25%{
+        border-right: 16px solid goldenrod;
+    }
+    50%{
+        border-bottom: 16px solid goldenrod;
+    } */
+    100%{
+        /* border-left: 16px solid goldenrod; */
+        transform: rotate(360deg);
+    }
+}
