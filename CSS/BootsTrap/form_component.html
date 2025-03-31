@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Component</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <h1>Form Layout</h1>
+        <form action="#">
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" name="email" id="email" placeholder="name@example.com">
+            </div>
+
+            <div class="mb-3">
+                <label for="pass" class="form-label">Password</label>
+                <input type="password" name="password" id="pass" class="form-control" placeholder="password">
+            </div>
+
+            <div class="mb-3">
+                <label for="team">Select Team</label>
+                <select class="form-select" name="value" id="team">
+                    <option value="null" selected>Choose Your Fav. Team!</option>
+                    <option value="rcb">Royal Challengers Bengaluru</option>
+                    <option value="csk">Chenai Super Kings</option>
+                    <option value="mi">Mumbai Indians</option>
+                </select>
+            </div>
+
+            <div class="mb-3">
+                <input type="checkbox" name="value" id="agree" class="form-check-input">
+                <label for="agree" class="form-check-label">Agree</label>
+            </div>
+
+            <div class="mb-3">
+                <input type="radio" name="value" id="Yterm" class="form-check-input">
+                <label for="Yterm" class="form-check-label">Yes</label>
+                <input type="radio" name="value" id="Nterm" class="form-check-input" checked>
+                <label for="Nterm" class="form-check-label">No</label>
+                <input type="radio" name="value" id="Nterm" class="form-check-input" checked>
+            </div>
+
+            <div class="row">
+                <div class="mb-3 col-md-6">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" name="email" id="email" placeholder="name@example.com">
+                </div>
+                <div class="mb-3 col-md-6">
+                    <label for="pass" class="form-label">Password</label>
+                    <input type="password" name="password" id="pass" class="form-control" placeholder="password">
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
