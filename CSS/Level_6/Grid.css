@@ -44,8 +44,8 @@ h1{
 }
 #one{
     /* Grid column  */
-    /* grid-column-start: 1;
-    grid-column-end: 4; */
+    grid-column-start: 1;
+    grid-column-end: 4;
 
     /* Short-hand Property*/
     /* grid-column: 1/4; */
