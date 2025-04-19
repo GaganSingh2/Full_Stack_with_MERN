@@ -10,3 +10,7 @@ console.log(typeof c)
 
 d = NaN * NaN;
 console.log(typeof d)
+
+console.log(typeof NaN * NaN)
+
+console.log(0/0)
