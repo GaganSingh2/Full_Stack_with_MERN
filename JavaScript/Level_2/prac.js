@@ -76,6 +76,7 @@ while (si<=ei) {
     if(val.charAt(si) !== val.charAt(ei)){
             console.log(val+" is not a palindrome.");
             res = false;
+            break;
     }
     res = true;
     si++;
