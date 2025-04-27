@@ -66,3 +66,20 @@ switch (day) {
     default:
         console.log("Invalid Number!");
 }
+
+// Q)Check given value is palindrome
+let val = prompt("Enter the value: ")
+
+let si = 0, ei= val.length-1;
+let res = false;
+while (si<=ei) {
+    if(val.charAt(si) !== val.charAt(ei)){
+            console.log(val+" is not a palindrome.");
+            res = false;
+    }
+    res = true;
+    si++;
+    ei--;
+}if(res==true){
+    console.log(val+" is a palindrome.");
+}
